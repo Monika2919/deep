@@ -3,7 +3,7 @@
 1. Introduction
 This report presents a production-quality multivariate time series forecasting framework that compares a classical statistical baseline with an advanced deep learning model. The objective is to evaluate predictive performance using rigorous rolling-window validation while also providing interpretability for the deep learning approach.
 
-2. Dataset and Preprocessing
+# Dataset and Preprocessing
 A synthetic multivariate time series dataset with over 1,000 observations was programmatically generated to exhibit realistic trend, seasonality, and noise patterns. The dataset includes five features: a target variable, temperature, humidity, wind speed, and a holiday indicator. Standard preprocessing steps, including scaling and missing-value safety checks, were applied while strictly preserving temporal order.
 
 3. Validation Strategy
